@@ -33,3 +33,13 @@ cursor: pointer;
 background-color: #555;
 color: white;
 }
+
+.botonIzq{
+    color: salmon;
+    background-color: dimgray;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 0.4%;
+    width: 10%;
+}
