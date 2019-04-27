@@ -45,7 +45,7 @@ export class JuegoPiedraPapelTijera extends  Juego{
         else if(this.eleccionMaquina=="tijera")
         {
             this.ContadorDeGanadas++;
-            return "vos ganastes, la maquina eligio tijera.";            
+            return "Vos ganastes, la maquina eligio tijera.";            
         }
         else
         {
@@ -60,18 +60,18 @@ export class JuegoPiedraPapelTijera extends  Juego{
         if(this.eleccionHumano==this.eleccionMaquina)
         {
             this.ContadorDeEmpates++;		
-            return "empate, Ambos eligieron Papel";      
+            return "Empate, Ambos eligieron Papel";      
 
         }
         else if(this.eleccionMaquina=="piedra")
         {
             this.ContadorDeGanadas++;
-            return "vos ganastes campeón! la maquina eligio Piedra.";            
+            return "Vos ganastes campeón! la maquina eligio Piedra.";            
         }
         else
         {
             this.ContadorDePerdidas++;
-            return "ganó la Maquina eligio tijera, no siempre se gana.";            
+            return "Ganó la Maquina eligio tijera, no siempre se gana.";            
         }
     }
 
@@ -81,17 +81,17 @@ export class JuegoPiedraPapelTijera extends  Juego{
         if(this.eleccionHumano==this.eleccionMaquina)
         {
             this.ContadorDeEmpates++;		
-            return "empate, esta reñido, ambos eligieron tijera.";            
+            return "Empate, esta reñido, ambos eligieron tijera.";            
         }
         else if(this.eleccionMaquina=="papel")
         {
             this.ContadorDeGanadas++;
-            return "vos ganastes que groso, la tijera vence al papel.";            
+            return "Vos ganastes que groso, la tijera vence al papel.";            
         }
         else
         {
             this.ContadorDePerdidas++;
-            return "ganó la Maquina con piedra, mejor suerte la próxima";            
+            return "Ganó la Maquina con piedra, mejor suerte la próxima";       
         }
     }
 
