@@ -5,28 +5,66 @@
   </h1>
 </div>
 
-<div class="juego">
+<div class="juego container">
  
-    <div class="divResultados">
-      <label for="">Partidas Ganadas</label> <input type="number" readonly [(ngModel)]="nuevoJuego.ContadorDeGanadas" style="width:30%" class="form-control">
-      <label for=""> Partidas Empatadas</label> <input type="number" readonly [(ngModel)]="nuevoJuego.ContadorDeEmpates" style="width:30%" class="form-control">
-      <label for="">Partidas Perdidas</label> <input type="number" readonly [(ngModel)]="nuevoJuego.ContadorDePerdidas" style="width:30%" class="form-control">
-    </div>
+  <div class="row align-items-end divFila">
+      <div class="col-5">
+        <label for="">Partidas Ganadas</label> <input type="number" readonly [(ngModel)]="nuevoJuego.ContadorDeGanadas" style="width:30%" class="form-control">
+        <label for=""> Partidas Empatadas</label> <input type="number" readonly [(ngModel)]="nuevoJuego.ContadorDeEmpates" style="width:30%" class="form-control">
+        <label for="">Partidas Perdidas</label> <input type="number" readonly [(ngModel)]="nuevoJuego.ContadorDePerdidas" style="width:30%" class="form-control">
+      </div>
 
-    <div class="divReglas">
-      <img class="imgreglas" src="../../../assets/imagenes/ppt-reglas.jpg">
-    </div>
-  
+      <div class="col-6">
+        <img class="imgreglas" src="../../../assets/imagenes/ppt-reglas.jpg">
+      </div>
 
-  <div class="divImagenes">
-      <img class="ppt" src="../../../assets/imagenes/ppt-piedra.jpg" (click)="piedra()">
-      <img class="ppt" src="../../../assets/imagenes/ppt-papel.jpg" (click)="papel()">
-      <img class="ppt" src="../../../assets/imagenes/ppt-tijera.jpg" (click)="tijera()">
+      <div class="col-1">
+
+        <div class="elije">
+            Elije tu jugada
+        </div>
+
+      </div>
+     
+
   </div>
 
-  <div class="resultado">
-      {{Mensajes}}
+  <div class="row align-items-center divFila">
+
+    <div class="col-5 align-items-start txtResultado">
+        {{Mensajes}}
+    </div>
+
+    <div class="col-6 divImagenes">
+        <img class="ppt" src="../../../assets/imagenes/ppt-piedra.jpg" (click)="piedra()">
+        <img class="ppt" src="../../../assets/imagenes/ppt-papel.jpg" (click)="papel()">
+        <img class="ppt" src="../../../assets/imagenes/ppt-tijera.jpg" (click)="tijera()">
+    </div>
+
+    <div class="col-1">
+          <div id="arrowAnim">
+            <div class="arrowSliding">
+              <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay1">
+              <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay2">
+              <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay3">
+              <div class="arrow"></div>
+            </div>
+          </div>
+
+    </div>
+
   </div>
+
+
+
+
+
 
 </div>
 
