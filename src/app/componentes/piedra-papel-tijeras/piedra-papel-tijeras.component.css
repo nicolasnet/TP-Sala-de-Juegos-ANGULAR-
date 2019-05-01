@@ -1,5 +1,8 @@
+label{
+    color: whitesmoke;
+}
+
 button {
-    /*background-color: #4CAF50;*/
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -12,10 +15,9 @@ button:hover {
     opacity: 0.8;
 }
 
-
-
 .juego{
     position: absolute;
+    width: 100%;
 }
 
 .imgreglas{
@@ -58,6 +60,7 @@ button:hover {
     background-color: transparent;
     text-align: center;
     font-weight: bold;
+    color: whitesmoke;
     
 }
 

@@ -1,3 +1,9 @@
+.total{
+  width: 100%;
+  position: absolute;
+}
+
+
 .fondoInteligente{
   background-color: darkcyan;
 }
@@ -11,8 +17,8 @@
     max-width: 300px;
     height: 100%;
     margin: 10px;
-    padding-bottom: 10px;
     float: left;
+    padding-bottom: 10px;
     background-color: #DEF3A6;
     text-align: center;
 }
@@ -31,12 +37,12 @@
 }
 
 
-/* Add rounded corners to the top left and the top right corner of the image */
+
 img {
     border-radius: 5px 5px 0 0;
     width: 200px;
     height: 200px;
-}/* Add some padding inside the card container */
+}
 .container {
     padding: 2px 16px;
 }
@@ -65,7 +71,9 @@ img {
     width: 100%;
   }
   
-  .button:hover {background-color: darkorange;}
+  .button:hover {
+    background-color: darkorange;
+  }
   
   .button:active {
     background-color:  rgb(191, 192, 113);
@@ -76,5 +84,7 @@ img {
     text-align: center;
     float: right;
     color: whitesmoke;
+    margin-top: 1%;
+    margin-right: 30%;
     
   }

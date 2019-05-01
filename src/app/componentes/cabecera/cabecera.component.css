@@ -1,7 +1,19 @@
+a{
+    border-radius: 7%;
+    border: none;
+}
+
+.titulo{
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(0, 153, 255),rgb(172, 3, 194));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 .panel
 {
     height: 200px;
-    background-image: url("/TP_LAV4_2017/assets/imagenes/cabecera.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,6 +28,7 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: #3E06B0;
+
 }
 
 .hero-text a {
@@ -35,11 +48,17 @@ color: white;
 }
 
 .botonIzq{
-    color: salmon;
-    background-color: dimgray;
+    color: rgb(233, 82, 66);
+    background-color: transparent;
     border: none;
     font-weight: bold;
-    border-radius: 20px;
+    border-radius: 50px;
     margin: 0.4%;
     width: 10%;
+}
+.botonIzq:hover{
+    background: -webkit-linear-gradient(rgb(255, 0, 0),rgb(56, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
 }
