@@ -1,3 +1,6 @@
+body{
+    background-color: gray;
+}
 input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
@@ -16,12 +19,23 @@ button {
     border: none;
     cursor: pointer;
     width: 100%;
+    border-radius: 5%;
+}
+
+
+.jumbotron{
+    background: -webkit-linear-gradient(rgba(6, 205, 212, 0.445),gray);
+}
+
+.divBotones{
+    background: -webkit-linear-gradient(gray,rgba(6, 206, 212, 0.651));
 }
 
 /* Extra styles for the cancel button */
 .cancelbtn {
     padding: 14px 20px;
-    background-color: #f44336;
+    background-color: darkred;
+    
 }
 
 /* Float cancel and signup buttons and add an equal width */
@@ -49,7 +63,7 @@ button {
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
+    background: -webkit-linear-gradient(white,gray);
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
     width: 98%; /* Could be more or less, depending on screen size */

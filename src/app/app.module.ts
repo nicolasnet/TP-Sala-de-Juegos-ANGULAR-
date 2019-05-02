@@ -54,6 +54,7 @@ import { AgmCoreModule } from '@agm/core';
 import { InputJugadoresComponent } from './componentes/input-jugadores/input-jugadores.component';
 import { SexoPipe } from './pipes/sexo.pipe';
 import { PiedraPapelTijerasComponent } from './componentes/piedra-papel-tijeras/piedra-papel-tijeras.component';
+import { DragonComponent } from './componentes/dragon/dragon.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +81,8 @@ import { PiedraPapelTijerasComponent } from './componentes/piedra-papel-tijeras/
     JugadoresListadoComponent,
     InputJugadoresComponent,
     SexoPipe,
-    PiedraPapelTijerasComponent
+    PiedraPapelTijerasComponent,
+    DragonComponent
   ],
   imports: [
     BrowserModule,

@@ -94,7 +94,6 @@ export class JuegoPiedraPapelTijera extends  Juego{
             return "Ganó la Maquina con piedra, mejor suerte la próxima";       
         }
     }
-
     
     public verificar():boolean{
         console.log("hola");
